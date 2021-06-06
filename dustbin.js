@@ -6,7 +6,7 @@ class dustbin
 		this.y=y;
 		this.dustbinWidth=200;
 		this.dustbinHeight=213;
-		this.wallThickness=20;
+		this.wallThickness=2;
 		
 		this.image=loadImage("dustbingreen.png")
 		this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.wallThickness, {isStatic:true})
